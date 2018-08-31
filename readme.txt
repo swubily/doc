@@ -1,6 +1,6 @@
 hi,
 
-this is my git project.
+This is my git project.
 
 BR,
 zc
