@@ -1,6 +1,6 @@
 Hello Dear,
 
-This is my git project!!!!
+This is my git project!!
 
 Best Regards,
 Wang zhangchuan
