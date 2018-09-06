@@ -36,4 +36,4 @@ target/
 act.pid
 
 # DB configuration file
-#db.properties
+db.properties
