@@ -1,4 +1,4 @@
-**Adapation 工作笔记**
+# **Adapation 工作笔记**
 
 '%WIP FC:OSS_FC_018032 add imb component'
 
@@ -6,7 +6,7 @@ https://gerrite1.ext.net.nokia.com/a/netact/adap_ztsl
 
 
 
-**1. NetAct 常用日志目录：**
+## **1. NetAct 常用日志目录：**
 
 |             Name              | Value                                                        |
 | :---------------------------: | ------------------------------------------------------------ |
@@ -23,35 +23,45 @@ https://gerrite1.ext.net.nokia.com/a/netact/adap_ztsl
 |     NE3S registration url     | curl http://10.96.180.114:8080/NE3S/1.0/NE3SRegistrationService |
 | adaptation template directory | /var/opt/oss/global/NSN-integrationmanager/integration_metadata_template |
 
-**2.常用地址**
+## **2.常用地址**
 
-| Name                            | Value                                                        |
-| ------------------------------- | ------------------------------------------------------------ |
-| Team Wiki                       | <https://confluence.int.net.nokia.com/display/NCEPdev/Archer+team> |
-| ARS link                        | <https://sharenet-ims.int.net.nokia.com/livelink/livelink?func=ll&objId=431985352&objAction=browse&sort=name&viewType=1> |
-| Co-Labs Wiki(vsp0114 )          | <https://confluence.int.net.nokia.com/pages/viewpage.action?pageId=556430155>  <https://confluence.int.net.nokia.com/display/Unify60/Co-labs+for+NetAct+and+UDM+19.0> |
-| SP Build Jenkins                | <http://cidash.netact.nsn-rdnet.net/jenkins/job/I_NA_FastPass_SP_Builder/> |
-| TA server Jenkins               | [http://135.242.205.43:8080](http://135.242.205.43:8080/)    |
-| LAB 硬件相关jira                | <https://srvjira.int.net.nokia.com/browse/DCINFRA-75792>     |
-| NetAct maintaince lab           | <https://confluence.int.net.nokia.com/display/OSSNetAct/NetAct+16.X+Maintenance+Labs> |
-| OIB Excel Generation            | <https://confluence.int.net.nokia.com/display/OSSChinaCuDoUA/OIB+Excel+Generation+workspace> |
-| Adaption Engine                 | <http://adapengine.eecloud.dynamic.nsn-net.net/tasks?name=com.nokia.albvm.pmb>   Product trigger URL: <http://api.ae.eecloud.dynamic.nsn-net.net/notif/trigger> |
-| JOMA&VTK download               | <http://bhlbmw06.apac.nsn-net.net/download/>                 |
-| HSSFE ARS                       | <https://sharenet-ims.int.net.nokia.com/livelink/livelink?func=ll&objId=426696141&objAction=browse&viewType=1> |
-| VTK ENV                         | <https://confluence.int.net.nokia.com/display/ygHome/Setup+Fast+Pass+VTK+running+environment> |
-| FMB specification               | https://sharenet-ims.int.net.nokia.com/livelink/livelink/overview/D564358173 |
-| PMB specification               | <https://sharenet-ims.int.net.nokia.com/livelink/livelink/overview/D515936783> |
-| Adaption fragment specification | <https://sharenet-ims.int.net.nokia.com/livelink/livelink?func=LL.getlogin&NextURL=%2Flivelink%2Flivelink%2Foverview%2FD564358173> |
+| Name                                                         | Value                                                        |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Team Wiki                                                    | <https://confluence.int.net.nokia.com/display/NCEPdev/Archer+team> |
+| ARS link                                                     | <https://sharenet-ims.int.net.nokia.com/livelink/livelink?func=ll&objId=431985352&objAction=browse&sort=name&viewType=1> |
+| Co-Labs Wiki(vsp0114 )                                       | <https://confluence.int.net.nokia.com/pages/viewpage.action?pageId=556430155>  <https://confluence.int.net.nokia.com/display/Unify60/Co-labs+for+NetAct+and+UDM+19.0> |
+| SP Build Jenkins                                             | <http://cidash.netact.nsn-rdnet.net/jenkins/job/I_NA_FastPass_SP_Builder/> |
+| TA server Jenkins                                            | [http://135.242.205.43:8080](http://135.242.205.43:8080/)    |
+| LAB 硬件相关jira                                             | <https://srvjira.int.net.nokia.com/browse/DCINFRA-75792>     |
+| NetAct maintaince lab                                        | <https://confluence.int.net.nokia.com/display/OSSNetAct/NetAct+16.X+Maintenance+Labs> |
+| OIB Excel Generation                                         | <https://confluence.int.net.nokia.com/display/OSSChinaCuDoUA/OIB+Excel+Generation+workspace> |
+| Adaption Engine                                              | <http://adapengine.eecloud.dynamic.nsn-net.net/tasks?name=com.nokia.albvm.pmb>   Product trigger URL: <http://api.ae.eecloud.dynamic.nsn-net.net/notif/trigger> |
+| JOMA&VTK download                                            | <http://bhlbmw06.apac.nsn-net.net/download/>                 |
+| HSSFE ARS                                                    | <https://sharenet-ims.int.net.nokia.com/livelink/livelink?func=ll&objId=426696141&objAction=browse&viewType=1> |
+| VTK ENV                                                      | <https://confluence.int.net.nokia.com/display/ygHome/Setup+Fast+Pass+VTK+running+environment> |
+| FMB specification                                            | https://sharenet-ims.int.net.nokia.com/livelink/livelink/overview/D564358173 |
+| PMB specification                                            | <https://sharenet-ims.int.net.nokia.com/livelink/livelink/overview/D515936783> |
+| Adaption fragment specification                              | <https://sharenet-ims.int.net.nokia.com/livelink/livelink?func=LL.getlogin&NextURL=%2Flivelink%2Flivelink%2Foverview%2FD564358173> |
+| [PM Adaptation Uninstall For Fast Pass](https://confluence.int.net.nokia.com/display/rangers/PM+Adaptation+Uninstall+For+Fast+Pass) | <https://confluence.int.net.nokia.com/display/rangers/PM+Adaptation+Uninstall+For+Fast+Pass> |
+| NIDD tool（man2nidd）                                        | <https://gitlabe1.ext.net.nokia.com/INES/INES-ToolKit/tree/master/man2nidd-import-converter> |
 
 **3.常用命令**
 
 | Name                     | Value                                                        |
 | ------------------------ | ------------------------------------------------------------ |
+| ZTS manual deploy        | sh ads_client.sh -nt 000_DA_BASE_000 -v 000_BASE_000         |
+| UDM send Alarm           | [rtp99@regudmatom-udmuecm-77b495f644-5xgw7 [mcc] ~]$ RtpSendEvent64<br/>Usage: RtpSendEvent [-s] [-p PLID] [faulty] set num format [ args ... ]<br/>       RtpSendEvent [-p PLID] [-f file] [-t delay]<br/>-s         suppress attach/detach/fully functional events sent by nodemanager<br/>-p PLID    use PLID as the current platform identifier<br/>  -f file    read the event arguments from the given file,<br/>               one event each line<br/>  -t delay   issue an event each delay milliseconds<br/><br/>event arguments:<br/>  faulty     a string used as the faulty managed object<br/>  set        the event's set number (1 ... 255 )<br/>  num        the event's message number (1 ... 65536 )<br/>  format     the event's format string (short text) quoted by ""<br/>  args       list of variable arguments matching the format string.<br/>Example:<br/>  RtpSendEvent 200 11 "got a message of type %d from %s" 25 AppTestLog<br/>login to mcc container and execute the above command.<br/>you can even try the below comamnd from mcc<br/>execRTPenv RtpSendEvent 102 628 "test %d" 60 |
 | git commit command       | git push origin HEAD:refs/for/master/<topic branch>          |
 | smanager.pl omc用户执行: | /opt/cpf/sbin/netact_status.sh status                        |
 | Iptables测试firewall     | 193  iptables -A OUTPUT -p tcp  -d  10.103.200.50  --dport 8080 -j ACCEPT    194  iptables -A OUTPUT -p tcp  -d  10.103.200.49  --dport 8080 -j ACCEPT    195  iptables -A OUTPUT -p tcp  -d  10.103.200.50  --dport 8080 -j ACCEPT    196  iptables -A OUTPUT -p tcp  -d  10.103.200.51  --dport 8080 -j ACCEPT    197  iptables -A OUTPUT -p tcp  -d  10.103.200.52  --dport 8080 -j ACCEPT    198  iptables -A OUTPUT -p tcp  -d  10.103.200.52  --dport 8443 -j ACCEPT    199  iptables -A OUTPUT -p tcp  -d  10.103.200.51  --dport 8443 -j ACCEPT    200  iptables -A OUTPUT -p tcp  -d  10.103.200.50  --dport 8443 -j ACCEPT    201  iptables -A OUTPUT -p tcp  -d  10.103.200.49  --dport 8443 -j ACCEPT          206  iptables -A OUTPUT -d 10.103.200.52/32 -j DROP    207  iptables -A OUTPUT -d 10.103.200.51/32 -j DROP    208  iptables -A OUTPUT -d 10.103.200.50/32 -j DROP    209  iptables -A OUTPUT -d 10.103.200.49/32 -j DROP       211  iptables -A INPUT -s 10.103.200.49/32 -j ACCEPT    212  iptables -A INPUT -s 10.103.200.50/32 -j ACCEPT    213  iptables -A INPUT -s 10.103.200.51/32 -j ACCEPT    214  iptables -A INPUT -s 10.103.200.52/32 -j ACCEPT           82  iptables -A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -s 10.103.200.52/32 -j ACCEPT -m comment --comment "Stateful_INPUT"     83  iptables -A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -s 10.103.200.51/32 -j ACCEPT -m comment --comment "Stateful_INPUT"     84  iptables -A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -s 10.103.200.50/32 -j ACCEPT -m comment --comment "Stateful_INPUT"     85  iptables -A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -s 10.103.200.49/32 -j ACCEPT -m comment --comment "Stateful_INPUT"     86  iptables -A INPUT -s 10.103.200.52/32 -j DROP     87  iptables -A INPUT -s 10.103.200.51/32 -j DROP     88  iptables -A INPUT -s 10.103.200.50/32 -j DROP     89  iptables -A INPUT -s 10.103.200.49/32 -j DROP         iptables -A INPUT -p tcp -d 10.92.99.189 -s  10.103.200.49  --dport 30505 -j ACCEPT     iptables -A INPUT -p tcp -d 10.92.99.189 -s  10.103.200.50  --dport 30505 -j ACCEPT     iptables -A INPUT -p tcp -d 10.92.99.189 -s  10.103.200.51  --dport 30505 -j ACCEPT     iptables -A INPUT -p tcp -d 10.92.99.189 -s  10.103.200.52  --dport 30505 -j ACCEPT     iptables -A INPUT -p tcp -d 10.92.99.189 -s  10.103.200.52  --dport 30510 -j ACCEPT     iptables -A INPUT -p tcp -d 10.92.99.189 -s  10.103.200.51  --dport 30510 -j ACCEPT     iptables -A INPUT -p tcp -d 10.92.99.189 -s  10.103.200.50  --dport 30510 -j ACCEPT     iptables -A INPUT -p tcp -d 10.92.99.189 -s  10.103.200.49  --dport 30510 -j ACCEPT |
 | OMES 抓取                | #Node08#!/bin/sh  while true  do  cp /d/oss/global/var/mediation/south/pm/import/com.nsn.oss.mediation.south.ne3soappm/*.gz  /tmp/wzc/sleep 1  done |
 | TA svn提交格式           | %TBC IWI:testing : update HSSFE NEIW cases%CR TR: Arther     |
+| etload command           | etlcolDBInfo.pl -t NOKREG%RAW                                |
+| etload 抓取脚本          | #!/bin/sh
+dest_dir=/root/temp_omes
+omes_dir=/var/opt/nokia/oss/global/mediation/south/pm/import/com.nsn.oss.mediation.south.ne3soappm
+mkdir -p $dest_dir<br />while true<br />do<br />     test $(find  $omes_dir -type f  -name "*.xml*"<br />     sleep 1<br />done |
+|                          |                                                              |
 
 **4.NE网元常用信息**
 
